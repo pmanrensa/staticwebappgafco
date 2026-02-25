@@ -1,5 +1,9 @@
 {
-    "navigationFallback": {
-        "rewrite": "/index.html"
-    }
+    "routes": [
+        {
+            "route": "/*",
+            "redirect": "https://rensa.nl/gafco",
+            "statusCode": 301
+        }
+    ]
 }
